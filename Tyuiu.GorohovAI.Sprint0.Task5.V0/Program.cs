@@ -35,8 +35,10 @@ namespace Tyuiu.GorohovAI.Sprint0.Task5.V0
 
             DataService ds = new DataService();
 
-            var result = ds.YOURFUNCTION();
-            Console.WriteLine(result);
+            Console.WriteLine("A+B = " + DataService.Addition(1, 5));
+            Console.WriteLine("A-B = " + DataService.Subtraction(15, 5));
+            Console.WriteLine("A*B = " + DataService.Multiplication(10, 10));
+            Console.WriteLine("A-B = " + DataService.Subtraction(5, 0));
             Console.ReadKey();
         }
     }
