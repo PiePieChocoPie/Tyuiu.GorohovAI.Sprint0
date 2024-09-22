@@ -35,8 +35,12 @@ namespace Tyuiu.GorohovAI.Sprint0.Task6.V0
 
             DataService ds = new DataService();
 
-            var result = ds.YOURFUNCTION();
-            Console.WriteLine(result);
+            int[] arraynums = new int[] { 1, 2, 3, 4, 5, };
+
+            Console.WriteLine(DataService.AdditionArray(arraynums));
+            Console.WriteLine(DataService.MultiArray(arraynums));
+            Console.WriteLine(DataService.SubStractionArray(arraynums));
+
             Console.ReadKey();
         }
     }
